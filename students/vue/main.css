@@ -1,0 +1,85 @@
+*{
+    margin: 0 0 0 5px;
+    padding: 0;
+    background-color: #d6d4d4;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+.caption{
+    margin: 15px 0 15px 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+}
+
+.header-item h-1{
+    margin-right: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.button{
+    width: 200px;
+    margin-left: 100px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 15px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    text-decoration: none;
+    cursor: pointer;
+}
+  
+.button:hover {
+    background-color: black;
+    color: white;
+}
+
+#num{
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+#name{
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    border: 2px solid black;
+    border-radius: 15px;
+    box-shadow: 3px black;
+    margin-top: 10px;
+    width: 350px;
+    padding: 5px;
+    background-color: white;
+}
+
+#stId{
+    font-family: 'Open Sans', sans-serif;
+    margin-right: 100px;
+    background-color: white;
+}
+
+#stName{
+    margin-left: 15px;
+    background-color: white;
+}
+
+.btn{
+    display: flex;
+    flex-direction: column;
+}
